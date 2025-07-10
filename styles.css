@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* 1. Import Architects Daughter font from Google Fonts */
+@import url('https://fonts.com/css2?family=Architects+Daughter&display=swap');
+
+/* This rule targets the body element specifically when it has the 'fancy-body' class. */
+/* It sets the chosen blue-grey background color.*/
+.fancy-body {
+    background-color: #8eb1c2; /* Your chosen blue-grey color */
+
+    /* 2. Apply the Architects Daughter font to the entire body */
+    font-family: 'Architects Daughter', cursive; /* 'cursive' is a fallback font type */
+    font-size: 12pt; /* Set the font size to 12 points */
+}
+
+/* New rule for the image */
+img {
+    width: 200px; /* Adjust this value to make it larger or smaller */
+    height: auto; /* Keeps the image's aspect ratio correct */
+    display: block; /* Makes the image behave like a block element */
+    margin: 20px auto; /* Adds a bit of space above/below and centers it horizontally */
+}
